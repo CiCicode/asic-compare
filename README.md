@@ -22,7 +22,7 @@ flowchart TD
     D["封裝測試
     ASE 日月光 / Amkor"]
     E["終端客戶
-    AWS / Azure / GCP / Apple / Tesla"]
+    AWS / Azure / GOOGLE / Apple / Tesla"]
 
     A --> B --> C --> D --> E
 ```
