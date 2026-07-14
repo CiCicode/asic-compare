@@ -21,8 +21,8 @@ flowchart TD
     TSMC / Samsung / GlobalFoundries / 聯電 / 世界先進 / 力積電"]
     D["封裝測試
     日月光 / 矽品 / 力成 / 京元電 / Amkor"]
-    E["終端客戶
-    CSP: Amazon / Microsoft / Google / Meta / Tesla"]
+    E["終端客戶(CSP)
+    Amazon / Microsoft / Google / Meta / Tesla"]
 
     A --> B --> C --> D --> E
 ```
