@@ -18,7 +18,7 @@ flowchart TD
     Alchip 世芯 / GUC 創意 / 聯發科 / Faraday 智原 / Marvell / Alphawave Semi
     / Broadcom / NVIDIA / AMD / Qualcomm"]
     C["晶圓代工
-    TSMC / Samsung / GF / UMC / SMIC"]
+    TSMC / Samsung / GlobalFoundries / UMC / SMIC 中芯國際"]
     D["封裝測試
     ASE 日月光 / Amkor"]
     E["終端客戶
