@@ -61,6 +61,9 @@ flowchart TB
         OEM[Apple / Dell / Tesla / ...<br/>品牌系統廠]
         SI[系統整合商<br/>System Integrator]
     end
+
+    OSAT --> Customer
+    Foundry -.->|量產服務| Customer
 ```
 
 ## 為什麼這個專案有用？
