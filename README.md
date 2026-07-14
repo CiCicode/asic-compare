@@ -18,11 +18,11 @@ flowchart TD
     Alchip 世芯 / GUC 創意 / 聯發科 / Faraday 智原 / Marvell / Alphawave Semi
     / Broadcom / NVIDIA / AMD / Qualcomm"]
     C["晶圓代工
-    TSMC / Samsung / GlobalFoundries / UMC / SMIC 中芯國際"]
+    TSMC / Samsung / GlobalFoundries / 聯電 / 世界先進 / 力積電"]
     D["封裝測試
-    ASE 日月光 / Amkor"]
+    ASE 日月光 / 矽品 / 力成 / 京元電 / Amkor"]
     E["終端客戶
-    AWS / Azure / GOOGLE / Apple / Tesla"]
+    CSP: Amazon / Microsoft / Google / Meta / Tesla"]
 
     A --> B --> C --> D --> E
 ```
