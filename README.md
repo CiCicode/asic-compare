@@ -1,4 +1,4 @@
-# 台灣 ASIC 設計服務 · 財務比較
+# 台灣 ASIC/IC 設計服務 · 財務比較
 
 三家具代表性的台灣 ASIC / IC 設計公司 — 世芯-KY、創意電子、聯發科 — 的季度財務數據一頁式儀表板，快速掌握營運趨勢。
 
@@ -13,18 +13,17 @@ https://asic-compare.vercel.app
 ```mermaid
 flowchart TD
     A["IP / EDA
-    ARM 安謀 / Synopsys 新思 / Cadence 益華 / Siemens EDA"]
+    ARM 安謀 / Synopsys 新思 / Cadence 益華"]
     B["IC 設計服務
     Alchip 世芯 / GUC 創意 / Faraday 智原
-    Sondrel / OpenFive / eInfochips
-    Synopsys-SS / Cadence-DS"]
+    聯發科 / Marvell / Alphawave Semi
+    Broadcom / NVIDIA / AMD / Qualcomm"]
     C["晶圓代工
-    先進製程: TSMC(3~5nm) / Samsung(3~5nm)
-    成熟製程: TSMC(16nm+) / GF(12nm+) / UMC / SMIC"]
+    TSMC / Samsung / GF / UMC / SMIC"]
     D["封裝測試
-    ASE 日月光 / Amkor 安靠 / JCET 長電"]
+    ASE 日月光 / Amkor"]
     E["終端客戶
-    AWS / Azure / GCP / Apple / NVIDIA / AMD / Tesla"]
+    AWS / Azure / GCP / Apple / Tesla"]
 
     A --> B --> C --> D --> E
 ```
