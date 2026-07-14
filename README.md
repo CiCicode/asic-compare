@@ -26,8 +26,3 @@ flowchart TD
 
     A --> B --> C --> D --> E
 ```
-
-## 資料來源
-
-公開資訊觀測站 (mops.twse.com.tw)
-
