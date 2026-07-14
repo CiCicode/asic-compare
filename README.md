@@ -12,11 +12,19 @@ https://asic-compare.vercel.app
 ## 產業生態系總覽
 ```mermaid
 flowchart TD
-    A["IP / EDA<br/>ARM / Synopsys / Cadence / Siemens EDA"]
-    B["IC 設計服務<br/>Alchip 世芯 / GUC 創意 / Faraday 智原 / Sondrel"]
-    C["晶圓代工<br/>TSMC / Samsung Foundry / GlobalFoundries"]
-    D["封裝測試<br/>ASE / Amkor / JCET"]
-    E["終端客戶<br/>AWS / Azure / GCP / Apple / NVIDIA / AMD / Tesla"]
+    A["IP / EDA
+    ARM 安謀 / Synopsys 新思 / Cadence 益華 / Siemens EDA"]
+    B["IC 設計服務
+    Alchip 世芯 / GUC 創意 / Faraday 智原
+    Sondrel / OpenFive / eInfochips
+    Synopsys-SS / Cadence-DS"]
+    C["晶圓代工
+    先進製程: TSMC(3~5nm) / Samsung(3~5nm)
+    成熟製程: TSMC(16nm+) / GF(12nm+) / UMC / SMIC"]
+    D["封裝測試
+    ASE 日月光 / Amkor 安靠 / JCET 長電"]
+    E["終端客戶
+    AWS / Azure / GCP / Apple / NVIDIA / AMD / Tesla"]
 
     A --> B --> C --> D --> E
 ```
