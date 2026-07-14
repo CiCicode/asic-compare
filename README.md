@@ -16,7 +16,7 @@ flowchart TD
     ARM 安謀 / Synopsys 新思 / Cadence 益華"]
     B["IC 設計服務
     Alchip 世芯 / GUC 創意 / 聯發科 / Faraday 智原 / Marvell / Alphawave Semi
-    Broadcom / NVIDIA / AMD / Qualcomm"]
+    / Broadcom / NVIDIA / AMD / Qualcomm"]
     C["晶圓代工
     TSMC / Samsung / GF / UMC / SMIC"]
     D["封裝測試
