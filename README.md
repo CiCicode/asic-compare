@@ -9,6 +9,59 @@ https://asic-compare.vercel.app
 <img width="539" height="326" alt="image" src="https://github.com/user-attachments/assets/7ae6f099-05ce-4e28-9b42-e99fe22ce509" />
 <img width="536" height="155" alt="image" src="https://github.com/user-attachments/assets/110c687f-6917-4b03-b135-0e3c8389550a" />
 
+## 產業生態系總覽
+```mermaid
+flowchart TB
+    subgraph EDA["EDA 供應商"]
+        S[Synopsys]
+        C[Cadence]
+        M[Siemens EDA]
+        A[Ansys]
+    end
+
+    subgraph IP["Silicon IP 供應商"]
+        ARM[ARM]
+        S_IP[Synopsys IP]
+        C_IP[Cadence IP]
+        O_IP[其他第三方 IP]
+    end
+
+    subgraph Fabless["Fabless 設計公司"]
+        N[NVIDIA / AMD]
+        Q[Qualcomm]
+        M_MTK[MediaTek]
+        BR[Broadcom]
+        AM[Apple Silicon]
+        HC[HPC / AI 晶片新創]
+    end
+
+    subgraph Foundry["晶圓代工廠"]
+        TSMC[TSMC]
+        S_Foundry[Samsung Foundry]
+        GF[GlobalFoundries]
+        UMC[UMC]
+        SMIC[SMIC]
+    end
+
+    subgraph OSAT["封裝測試廠"]
+        ASE[ASE]
+        AMK[Amkor]
+        JCET[JCET / STATS ChipPAC]
+        PTI[PTI]
+    end
+
+    EDA --> Fabless
+    IP --> Fabless
+    Fabless --> Foundry
+    Foundry --> OSAT
+    Fabless --> OSAT
+
+    subgraph Customer["終端客戶"]
+        CSP[AWS / Azure / GCP<br/>雲端服務商]
+        OEM[Apple / Dell / Tesla / ...<br/>品牌系統廠]
+        SI[系統整合商<br/>System Integrator]
+    end
+
 
 ## 為什麼這個專案有用？
 
@@ -21,3 +74,4 @@ https://asic-compare.vercel.app
 ## 資料來源
 
 公開資訊觀測站 (mops.twse.com.tw)
+
