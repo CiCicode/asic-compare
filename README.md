@@ -12,34 +12,13 @@ https://asic-compare.vercel.app
 ## 產業生態系總覽
 ```mermaid
 flowchart TD
-    A["IP / EDA"]
-    B["IC 設計服務"]
-    C["晶圓代工"]
-    D["封裝測試"]
-    E["終端客戶"]
+    A["IP / EDA<br/>ARM / Synopsys / Cadence / Siemens EDA"]
+    B["IC 設計服務<br/>Alchip 世芯 / GUC 創意 / Faraday 智原 / Sondrel"]
+    C["晶圓代工<br/>TSMC / Samsung Foundry / GlobalFoundries"]
+    D["封裝測試<br/>ASE / Amkor / JCET"]
+    E["終端客戶<br/>AWS / Azure / GCP / Apple / NVIDIA / AMD / Tesla"]
 
     A --> B --> C --> D --> E
-
-    A --> ARM[ARM]
-    A --> SYNOPSYS[Synopsys]
-    A --> CADENCE[Cadence]
-    A --> SIEMENS[Siemens EDA]
-
-    B --> ALCHIP[Alchip 世芯]
-    B --> GUC[Global Unichip 創意]
-    B --> FARADAY[Faraday 智原]
-    B --> SONDREL[Sondrel]
-
-    C --> TSMC[TSMC]
-    C --> SAMSUNG[Samsung Foundry]
-    C --> GF[GlobalFoundries]
-
-    D --> ASE[ASE]
-    D --> AMK[Amkor]
-    D --> JCET[JCET]
-
-    E --> CSP[AWS / Azure / GCP]
-    E --> OEM[Apple / NVIDIA / AMD / Tesla]
 ```
 
 ## 為什麼這個專案有用？
