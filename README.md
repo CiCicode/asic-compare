@@ -11,59 +11,39 @@ https://asic-compare.vercel.app
 
 ## 產業生態系總覽
 ```mermaid
-flowchart TB
-    subgraph EDA["EDA 供應商"]
-        S[Synopsys]
-        C[Cadence]
-        M[Siemens EDA]
-        A[Ansys]
-    end
-
-    subgraph IP["Silicon IP 供應商"]
+flowchart LR
+    subgraph A["IP / EDA"]
         ARM[ARM]
-        S_IP[Synopsys IP]
-        C_IP[Cadence IP]
-        O_IP[其他第三方 IP]
+        SYNOPSYS[Synopsys]
+        CADENCE[Cadence]
+        SIEMENS[Siemens EDA]
     end
 
-    subgraph Fabless["Fabless 設計公司"]
-        N[NVIDIA / AMD]
-        Q[Qualcomm]
-        M_MTK[MediaTek]
-        BR[Broadcom]
-        AM[Apple Silicon]
-        HC[HPC / AI 晶片新創]
+    subgraph B["IC 設計服務"]
+        ALCHIP[Alchip 世芯]
+        GUC[Global Unichip 創意]
+        FARADAY[Faraday 智原]
+        SONDREL[Sondrel]
     end
 
-    subgraph Foundry["晶圓代工廠"]
+    subgraph C["晶圓代工"]
         TSMC[TSMC]
-        S_Foundry[Samsung Foundry]
+        SAMSUNG[Samsung Foundry]
         GF[GlobalFoundries]
-        UMC[UMC]
-        SMIC[SMIC]
     end
 
-    subgraph OSAT["封裝測試廠"]
+    subgraph D["封裝測試"]
         ASE[ASE]
         AMK[Amkor]
-        JCET[JCET / STATS ChipPAC]
-        PTI[PTI]
+        JCET[JCET]
     end
 
-    EDA --> Fabless
-    IP --> Fabless
-    Fabless --> Foundry
-    Foundry --> OSAT
-    Fabless --> OSAT
-
-    subgraph Customer["終端客戶"]
-        CSP[AWS / Azure / GCP<br/>雲端服務商]
-        OEM[Apple / Dell / Tesla / ...<br/>品牌系統廠]
-        SI[系統整合商<br/>System Integrator]
+    subgraph E["終端客戶"]
+        CSP[AWS / Azure / GCP]
+        OEM[Apple / NVIDIA / AMD / Tesla]
     end
 
-    OSAT --> Customer
-    Foundry -.->|量產服務| Customer
+    A --> B --> C --> D --> E
 ```
 
 ## 為什麼這個專案有用？
