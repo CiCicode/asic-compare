@@ -155,7 +155,7 @@ IC 設計公司（Fabless）
 | ATE 測試設備 | 愛德萬測試（Advantest）、泰瑞達（Teradyne） |
 | 封裝測試（OSAT） | 日月光投控、艾克爾（Amkor）、京元電子、力成科技 |
 | 封裝基板 | 欣興電子、南電、景碩 |
-| PCB | 欣興電子、南亞電路板、臻鼎-KY |
+| PCB | 欣興電子、南電、臻鼎-KY |
 | CCL（銅箔基板） | 台光電子、聯茂電子、台燿 |
 | HBM（AI ASIC 專用） | SK 海力士（SK Hynix）、三星（Samsung）、美光（Micron） |
 | 先進封裝（CoWoS 等，AI ASIC 專用） | 台積電 |
