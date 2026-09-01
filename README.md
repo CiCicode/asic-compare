@@ -147,18 +147,18 @@ IC 設計公司（Fabless）
 | 供應鏈階段 | 代表廠商（依規模/常見度排序） |
 |---|---|
 | IC 設計（Fabless） | 聯發科（MediaTek）、瑞昱（Realtek）、聯詠（Novatek）、NVIDIA、AMD、高通（Qualcomm） |
-| Design House（委外設計服務） | 創意電子（GUC）、世芯電子（Alchip）、智原科技（Faraday） |
+| Design House（委外設計服務） | 創意電子、世芯電子、智原科技 |
 | EDA 工具 | Synopsys、Cadence、Siemens EDA（原 Mentor Graphics） |
 | IP 供應商 | ARM、Synopsys（DesignWare）、Arteris |
-| 晶圓代工（Foundry） | 台積電（TSMC）、三星（Samsung Foundry）、聯電（UMC）、格芯（GlobalFoundries）、中芯國際（SMIC） |
-| 探針卡 | 旺矽科技、中華精測、Technoprobe |
+| 晶圓代工（Foundry） | 台積電、三星、聯電、世界先進 |
+| 探針卡 | 旺矽、精測、穎崴 |
 | ATE 測試設備 | 愛德萬測試（Advantest）、泰瑞達（Teradyne） |
-| 封裝測試（OSAT） | 日月光投控（ASE Technology）、艾克爾（Amkor）、京元電子、力成科技、江蘇長電（JCET） |
-| 封裝基板 | 欣興電子（Unimicron）、南亞電路板、景碩科技、Ibiden、Kinsus |
-| PCB | 欣興電子、南亞電路板、臻鼎-KY（Zhen Ding） |
-| CCL（銅箔基板） | 台光電子、聯茂電子、Panasonic |
+| 封裝測試（OSAT） | 日月光投控、艾克爾（Amkor）、京元電子、力成科技 |
+| 封裝基板 | 欣興電子、南電、景碩 |
+| PCB | 欣興電子、南亞電路板、臻鼎-KY |
+| CCL（銅箔基板） | 台光電子、聯茂電子、台燿 |
 | HBM（AI ASIC 專用） | SK 海力士（SK Hynix）、三星（Samsung）、美光（Micron） |
-| 先進封裝（CoWoS 等，AI ASIC 專用） | 台積電（TSMC） |
+| 先進封裝（CoWoS 等，AI ASIC 專用） | 台積電 |
 
 ---
 
