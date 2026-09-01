@@ -29,7 +29,6 @@ flowchart TD
 
 ## IC 設計公司成本結構筆記：NRE → Turnkey 量產
 
-整理 Fabless IC 設計公司從研發到量產的完整成本項目，依製程順序排列，並附上目前對應的主要廠商，供 Supply Chain / Financial Analyst 面試與學習參考。
 
 > 本筆記聚焦 Fabless（無晶圓廠）IC 設計公司視角，不含晶圓代工廠或封測廠自身的內部成本結構。
 
