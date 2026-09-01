@@ -74,7 +74,7 @@ NRE（Non-Recurring Engineering）是指「讓這顆晶片可以量產」之前�
 | 光罩費用（Mask / Photomask Cost） | 設計定案後製作光罩，**NRE 中最貴的單項**，先進製程一套可達千萬美金等級 | 台積電（TSMC）、Photronics、Toppan |
 | 首次流片（Tape-out / Engineering Run） | 送第一批試產晶圓驗證設計，含少量 wafer 成本 | 台積電（TSMC）、聯電（UMC）、三星（Samsung Foundry） |
 | 測試程式開發（Test Program Development） | 開發 CP Test / Final Test 用的測試程式，含 ATE 設備租用時間 | 愛德萬測試（Advantest）、泰瑞達（Teradyne） |
-| 封裝設計（Package Design） | 設計封裝形式（BGA、QFN 等），新封裝型態需額外開發成本 | 日月光（ASE）、矽品（已併入 ASE）、艾克爾（Amkor） |
+| 封裝設計（Package Design） | 設計封裝形式（BGA、QFN 等），新封裝型態需額外開發成本 | 日月光（ASE）、矽品（已併入 ASE）、力成、京元電子、艾克爾（Amkor）|
 
 ---
 
