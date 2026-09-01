@@ -84,12 +84,12 @@ NRE（Non-Recurring Engineering）是指「讓這顆晶片可以量產」之前�
 
 | 項目 | 說明 | 主要對應廠商 |
 |---|---|---|
-| Wafer Cost | 跟晶圓代工廠買 wafer 的費用，依製程節點（如 3nm / 7nm / 28nm）報價不同 | 台積電（TSMC）、三星（Samsung Foundry）、聯電（UMC）、格芯（GlobalFoundries） |
+| Wafer Cost | 跟晶圓代工廠買 wafer 的費用，依製程節點（如 3nm / 7nm / 28nm）報價不同 | 台積電（TSMC）、三星（Samsung Foundry）、聯電（UMC）、世界先進 |
 | Die Yield Loss（良率損耗） | 非直接付費項目，但決定每片 wafer 能分攤到多少 good die，間接推高單位成本 | — |
-| CP Test（晶圓測試 / Wafer Sort） | 切割前逐顆測試電性，需用探針卡（Probe Card） | 台積電（自行測試或委外）、京元電子、旺矽科技（探針卡）、中華精測（探針卡） |
+| CP Test（晶圓測試 / Wafer Sort） | 切割前逐顆測試電性，需用探針卡（Probe Card） | 台積電（自行測試或委外）、京元電子、旺矽（探針卡）、精測（探針卡） |
 | Assembly / Packaging Cost（封裝成本） | 依封裝型態（QFN、BGA、Flip Chip 等）計價，通常按顆 | 日月光（ASE）、艾克爾（Amkor）、江蘇長電（JCET） |
 | Final Test Cost（最終測試成本） | 依測試時間（秒數）計價，測試越複雜/越久成本越高 | 日月光（ASE）、京元電子、力成科技 |
-| Substrate Cost（封裝基板成本） | 先進封裝（如 Flip Chip）所需的封裝基板材料 | 欣興電子、南亞電路板、Ibiden、Kinsus |
+| Substrate Cost（封裝基板成本） | 先進封裝（如 Flip Chip）所需的封裝基板材料 | 欣興電子、南電、景碩 |
 | Burn-in Test（老化測試，視規格需求） | 部分規格要求的額外可靠度測試 | 京元電子、日月光（ASE） |
 | 物流 / 報關成本 | wafer、die 在不同廠商間運送的物流費用 | 第三方物流商 |
 | IP Royalty（單顆版稅） | 部分 IP 授權採「每賣一顆付一次錢」而非一次性買斷 | ARM 及其他 IP 供應商 |
@@ -147,7 +147,7 @@ IC 設計公司（Fabless）
 | 供應鏈階段 | 代表廠商（依規模/常見度排序） |
 |---|---|
 | IC 設計（Fabless） | 聯發科（MediaTek）、瑞昱（Realtek）、聯詠（Novatek）、NVIDIA、AMD、高通（Qualcomm） |
-| Design House（委外設計服務） | 創意電子、世芯電子、智原科技 |
+| Design House（委外設計服務） | 創意電子、世芯、智原科技 |
 | EDA 工具 | Synopsys、Cadence、Siemens EDA（原 Mentor Graphics） |
 | IP 供應商 | ARM、Synopsys（DesignWare）、Arteris |
 | 晶圓代工（Foundry） | 台積電、三星、聯電、世界先進 |
