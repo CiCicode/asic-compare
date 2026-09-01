@@ -2,8 +2,6 @@
 
 三家具代表性的台灣 ASIC / IC 設計公司 — 世芯-KY、創意電子、聯發科 — 的季度財務數據一頁式儀表板，快速掌握營運趨勢。資料來源:公開資訊觀測站 (mops.twse.com.tw)
 
-## 網址
-
 https://asic-compare.vercel.app
 
 <img width="539" height="326" alt="image" src="https://github.com/user-attachments/assets/7ae6f099-05ce-4e28-9b42-e99fe22ce509" />
